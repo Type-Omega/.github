@@ -11,6 +11,8 @@ megafactories, real industrial chemistry, space exploration, and post-MAX eras.
 
 </div>
 
+> Formerly known as GregTech Infinity Ascension (GT:IA).
+
 > **Active development.** **Type 0** (`0.0 First Fire` → `0.9 Fusion`) is currently being built and playtested in a single unified mode.
 
 ## What makes it different

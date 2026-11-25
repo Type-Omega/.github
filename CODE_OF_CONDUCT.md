@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This applies to every repository, issue, pull request, Discord channel and other space of the GregTech Infinity Ascension organisation.
+This applies to every repository, issue, pull request, Discord channel and other space of the Type Omega organisation.
 
 ## Be decent
 

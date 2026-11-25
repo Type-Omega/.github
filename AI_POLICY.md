@@ -1,6 +1,6 @@
 # AI usage policy
 
-AI tools are allowed in GregTech Infinity Ascension projects. The person who opens an issue or pull request is its author and is responsible for every line of it.
+AI tools are allowed in Type Omega projects. The person who opens an issue or pull request is its author and is responsible for every line of it.
 
 * **You must fully understand the code you submit.** If you can't explain what your change does and how it interacts with the rest of the system without the help of an AI tool, don't submit it. A reviewer may ask you to explain any part; if you can't, the pull request is closed.
 
