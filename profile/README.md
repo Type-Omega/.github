@@ -1,24 +1,24 @@
 <div align="center">
 
-<img src="logo.png" alt="GregTech Infinity Ascension logo" width="160">
+<img src="logo.png" alt="Type Omega logo" width="400">
 
-# GregTech Infinity Ascension
+# Type Omega
 
-**GregTech for Minecraft 1.20.1 where the factory is the star:**<br>
-megafactories, real industrial chemistry and long production lines.
+**Kardashev-scale GregTech for Minecraft 1.20.1 (Forge):**<br>
+megafactories, real industrial chemistry, space exploration, and post-MAX eras.
 
 [Download](https://github.com/Type-Omega/TypeOmega/releases) · [Discord](https://discord.gg/TW5vugknk5) · [Report a bug](https://github.com/Type-Omega/TypeOmega/issues/new/choose) · [Developer docs](https://type-omega.github.io/TypeOmega-Dev-Doc/)
 
 </div>
 
-> **Early development.** Builds are for testers: Start → Steam → LV → MV → HV is playable with the quest book, from the first log to the Moon.
+> **Active development.** **Type 0** (`0.0 First Fire` → `0.9 Fusion`) is currently being built and playtested in a single unified mode.
 
 ## What makes it different
 
-- **Grind is solved with more factory**, never with more clicking. Large machines, wireless power and AE2 are part of the main path.
-- **Real chemistry, no PhD:** chlor-alkali, Bayer + Hall-Héroult, Haber-Bosch, Contact process and more. GregTech's one-step shortcuts are removed, so each base chemical comes from its real plant.
-- **Lines get longer every tier**, from 2–3 steps in Steam to 10+ from IV on.
-- **Every quest is reachable:** a checker reads the pack's real recipes and fails the build if a quest asks for something you can't make yet.
+- **Extended Kardashev progression:** scale from **Type 0** (Planetary: Primitive → Steam → HV) through **Type I–IV** to **Type Ω** (post-MAX). A **Kardashev meter (`K`)** tracks your team's sustained power generation, with caps lifted by milestone megastructures (National Dispatch Center, Cosmodrome, HV Tokamak in Type 0) and spaceflight (the Moon in Type 0; Mars opens Type I).
+- **Medium pace, expert chemistry:** Monifactory-style pacing paired with full industrial chemical chains (wood distillation, lime kiln, chlor-alkali, Bayer + Hall-Héroult, Contact, Haber-Bosch, Solvay, and more) where one-step shortcuts are removed.
+- **Factory-first, zero survival/magic gates:** no hunger, mob, dungeon, or magic progression gates—just megafactories, AE2, wireless Nexus power, and space exploration.
+- **Trilingual, recipe-verified quests:** FTB Quests generated in English, Portuguese (`pt_br`), and Chinese (`zh_cn`), checked against real loaded recipes on every build so no quest is unreachable.
 
 ## Links
 
@@ -35,26 +35,28 @@ megafactories, real industrial chemistry and long production lines.
 
 ## Projects
 
-**The pack**
+**The modpack**
 
 | Repository | What it is |
 | --- | --- |
-| [GregTech-Infinity-Ascension](https://github.com/Type-Omega/TypeOmega) | The modpack: configs, KubeJS, quests, manifest and release builds |
+| [TypeOmega](https://github.com/Type-Omega/TypeOmega) | The modpack: configs, KubeJS, quests, manifest, and release builds |
 
 **Mods** (Forge 1.20.1)
 
 | Repository | What it is |
 | --- | --- |
-| [GTIACore](https://github.com/Type-Omega/TypeOmegaCore) | The pack's core mod: steam-era machines, chemistry lines and pack rules |
-| [GregTech-Nexus-Addon](https://github.com/Type-Omega/GregTech-Nexus-Addon) | GTNA: large machines, the Nexus energy network and endgame multiblocks |
-| [Agronomica](https://github.com/Type-Omega/Agronomica) | Industrial crop breeding: NPK soil, climate, metal crops and phytomining (early development) |
-| [AscensionOptimizer](https://github.com/Type-Omega/AscensionOptimizer) | Measured performance fixes for large modpacks; works in any Forge 1.20.1 pack |
-| [GTIA-Lib](https://github.com/Type-Omega/TypeOmega-Lib) | Shared library of the GTIA mods: text in three languages, tooltips, multiblock modules, GameTest kit |
+| [TypeOmegaCore](https://github.com/Type-Omega/TypeOmegaCore) | Core mod: Type Omega progression, Kardashev meter, chemistry lines, steam/HV machines, and milestone megastructures |
+| [GregTech-Nexus-Addon](https://github.com/Type-Omega/GregTech-Nexus-Addon) | GTNA: large multiblocks, team-based Nexus wireless power/steam network, Nexus Terminal, and endgame structures |
+| [TypeOmega-Lib](https://github.com/Type-Omega/TypeOmega-Lib) | Shared library: trilingual text (`Tr`), GTNH-style multiblock tooltips & illustrated recipe UIs, multiblock modules, and GameTest sweeps |
+| [PlanOmega](https://github.com/Type-Omega/PlanOmega) | Client-side visual production chain planner, ojAlgo LP solver, coil/parallel BOM, and chain auditor for GTCEu, GTNA, AE2, JEI, and EMI |
+| [AscensionOptimizer](https://github.com/Type-Omega/AscensionOptimizer) | Measured performance fixes for Forge 1.20.1 modpacks (GTCEu covers, lazy EMI multiblock previews, configurable spawn chunks); works standalone in any pack |
 
-**Infrastructure**
+**Infrastructure & Docs**
 
 | Repository | What it is |
 | --- | --- |
-| [GTIA-Dev-Doc](https://github.com/Type-Omega/TypeOmega-Dev-Doc) | Developer documentation: vision, tiers, systems, approved decisions, setup |
+| [TypeOmega-Dev-Doc](https://github.com/Type-Omega/TypeOmega-Dev-Doc) | Developer documentation: vision, tiers, systems, approved decisions, and setup |
 | [maven](https://github.com/Type-Omega/maven) | Maven repository for the org's mods, synced from releases |
-| [.github](https://github.com/Type-Omega/.github) | This profile, org policies and issue/PR templates |
+| [.github](https://github.com/Type-Omega/.github) | This profile, org policies, and issue/PR templates |
+
+*Archived:* [Agronomica](https://github.com/Type-Omega/Agronomica) (its crops are now integrated into TypeOmegaCore Greenhouse recipes).
